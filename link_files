@@ -1,0 +1,8 @@
+symlink_all_dotfiles() {
+    for dotfile in $(ls -a ~/dotfiles | grep -E '^\.\w+' | grep -v git)
+        do
+            ln -s "~/dotfiles/$dotfile" ~/
+    done
+}
+
+symlink_all_dotfiles
