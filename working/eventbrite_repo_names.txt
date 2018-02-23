@@ -1,0 +1,7 @@
+core
+eventbrite-sdk-php
+eventbrite-sdk-python
+eventbrite-sdk-ruby
+inventory_service
+payment_service
+tag_service

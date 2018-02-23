@@ -1,0 +1,7 @@
+coreutils
+fd
+fish
+fzf
+git
+pcre2
+ripgrep
